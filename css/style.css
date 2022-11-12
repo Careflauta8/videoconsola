@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(55, 61, 225);
+}
+
+#cuerpoconsola {
+    width: 460px;
+    height: 680px;
+    background-color: rgb(218, 208, 208);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    border-bottom-right-radius:76px;
+ 
+    
+}
+
+#pantallanegra {
+    margin: 40px;
+    width: 500px;
+    height: 250px;
+    background-color: rgb(104, 102, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border-bottom-right-radius:46px;
+   
+}
+
+#pantallaverde {
+    width: 260px;
+    height: 200px;
+    background-color: rgb(72, 161, 5);
+}
+
+.cruceta{
+    width: 30px;
+    height: 100px;
+    background-color: black;
+    position: absolute;
+    margin: 35%;
+    top: -170px;
+    right: 100px;
+    left: 100px;
+    border-radius: 10px;
+}
+
