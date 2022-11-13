@@ -372,3 +372,13 @@ body {
     top: 45%;
     left: 52%;
 }
+
+#luzbateria{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: red;
+    top: 21%;
+    left: 39%;
+    border-radius: 50%;
+}
