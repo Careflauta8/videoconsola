@@ -2,16 +2,14 @@ body {
     margin: 10px;
     background-color: rgb(255, 255, 255);
 }
-
 #linearoja{
     width: 100px;
     height: 2px;
     position: absolute;
-    background-color: red;
+    background-color: rgb(244, 1, 1);
     top: 58px;
     left: 38.5%;
 }
-
 #linearoja-a{
     width: 45px;
     height: 2px;
@@ -20,7 +18,6 @@ body {
     top: 58px;
     left: 58.8%;
 }
-
 #lineaazul{
     width: 100px;
     height: 2px;
@@ -29,7 +26,6 @@ body {
     top: 66px;
     left: 38.5%;
 }
-
 #lineaazul-b{
     width: 45px;
     height: 2px;
@@ -38,7 +34,6 @@ body {
     top: 66px;
     left: 58.8%;
 }
-
 #cuerpoconsola {
     width: 460px;
     height: 680px;
@@ -50,7 +45,6 @@ body {
     border-bottom-right-radius: 76px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 4);
 }
-
 #pantallanegra {
     margin: 40px;
     width: 500px;
@@ -64,15 +58,12 @@ body {
     box-shadow: inset 4px -4px 20px -3px #3f3f3f;
 
 }
-
 #pantallaverde {
     width: 260px;
     height: 200px;
     background-color: #9ca04c;
     box-shadow: inset 3px -3px 20px -3px black;
 }
-
-
 #circulocruceta {
     margin: 23%;
     width: 120px;
@@ -84,7 +75,6 @@ body {
     position: absolute;
     box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 }
-
 #ovalobotonesAyB {
     margin: 371px;
     width: 130px;
@@ -97,7 +87,6 @@ body {
     transform: rotate(-45deg);
     box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 }
-
 #fondobotonselect {
     margin: 33.9%;
     width: 78px;
@@ -109,7 +98,6 @@ body {
     transform: rotate(-45deg);
     box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 }
-
 #fondobotonstart {
     margin: 28.7%;
     width: 78px;
@@ -123,7 +111,6 @@ body {
     box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 
 }
-
 .crucetavertical {
     width: 30px;
     height: 100px;
@@ -136,7 +123,6 @@ body {
     border-radius: 10px;
 
 }
-
 .crucetahorizontal {
     width: 30px;
     height: 100px;
@@ -150,7 +136,6 @@ body {
     transform: rotate(90deg);
 
 }
-
 .botonA {
     width: 45px;
     height: 45px;
@@ -163,7 +148,6 @@ body {
     border-radius: 50%;
     box-shadow: inset 4px -4px 5px -3px #eeabba;
 } 
-
 .botonB {
     width: 45px;
     height: 45px;
@@ -176,7 +160,6 @@ body {
     border-radius: 50%;
     box-shadow: inset 4px -4px 5px -3px #eeabba;
 }
-
 .botonselect {
     width: 15px;
     height: 60px;
@@ -190,7 +173,6 @@ body {
     transform: rotate(136deg);
     box-shadow: inset 4px -4px 5px -3px #393939;
 }
-
 .botonstart {
     width: 15px;
     height: 60px;
@@ -203,7 +185,6 @@ body {
     transform: rotate(180deg);
     box-shadow: inset 4px -4px 5px -3px #393939;
 }
-
 .altavoces {
     width: 150px;
     height: 100px;
@@ -216,7 +197,6 @@ body {
     translate: -60%;
 
 }
-
 .altavoces1,
 .altavoces2,
 .altavoces3,
@@ -229,37 +209,30 @@ body {
     border-radius: 20px;
     box-shadow: inset 5px -5px 23px -5px #494848;
 }
-
 .altavoces1 {
     position: absolute;
     left: 0px;
 }
-
 .altavoces2 {
     position: absolute;
     left: 20px;
 }
-
 .altavoces3 {
     position: absolute;
     left: 40px;
 }
-
 .altavoces4 {
     position: absolute;
     left: 60px;
 }
-
 .altavoces5 {
     position: absolute;
     left: 80px;
 }
-
 .altavoces6 {
     position: absolute;
     left: 100px;
 }
-
 #brillo-a {
     width: 19px;
     height: 3px;
@@ -269,7 +242,6 @@ body {
     top: 2px;
     left: 5px;
 }
-
 #brillo-b {
     width: 23px;
     height: 2px;
@@ -280,7 +252,6 @@ body {
     left: 35px;
     z-index: 300;
 }
-
 #brillo-c {
     width: 23px;
     height: 2px;
@@ -291,7 +262,6 @@ body {
     left: -25px;
     z-index: 200;
 }
-
 #frasesuperior{
     position: absolute;
     top: 6.3%;
@@ -300,7 +270,6 @@ body {
     color: #f8edf0;
     font-family: 'Times New Roman', Times, serif;
 }
-
 #battery{
     position: absolute;
     top: 23%;
@@ -309,7 +278,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
     color: #f8edf0;
 }
-
 #b{
     width: 20px;
     height: 12px;
@@ -319,7 +287,6 @@ body {
     margin: 15px;
     position: absolute;
 }
-
 #a{
     width: 20px;
     height: 12px;
@@ -329,7 +296,6 @@ body {
     transform: rotate(312deg);
 
 }
-
 #select{
     width: 55px;
     height: 12px;
@@ -338,7 +304,6 @@ body {
     transform: rotate(316deg);
     position: absolute;
 }
-
 #start{
     width: 55px;
     height: 12px;
@@ -347,7 +312,6 @@ body {
     transform: rotate(316deg);
     position: absolute;
 }
-
 #nintendo{
     width: 100px;
     height: 12px;
@@ -355,7 +319,6 @@ body {
     top: 44%;
     left: 38%;
 }
-
 #gameboy{
     width: 110px;
     height: 20px;
@@ -363,7 +326,6 @@ body {
     top: 43%;
     left: 45%;
 }
-
 #tm{
     width: 20px;
     height: 6px;
@@ -371,7 +333,6 @@ body {
     top: 45%;
     left: 52%;
 }
-
 #luzbateria{
     width: 15px;
     height: 15px;
@@ -381,7 +342,6 @@ body {
     left: 39%;
     border-radius: 50%;
 }
-
 #lineasuperiorgris{
     width: 460px;
     height: 4px;
