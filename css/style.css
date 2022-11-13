@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(251, 255, 2);
 }
 
 #cuerpoconsola {
@@ -11,13 +13,14 @@ body {
     justify-content: center;
     border-radius: 15px;
     border-bottom-right-radius: 76px;
+    box-shadow: 10px 10px 10px 10px;
 }
 
 #pantallanegra {
     margin: 40px;
     width: 500px;
     height: 250px;
-    background-color: rgb(104, 102, 105);
+    background-color: #797688;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,28 +32,41 @@ body {
 #pantallaverde {
     width: 260px;
     height: 200px;
-    background-color: rgb(72, 161, 5);
+    background-color:#9ca04c;
+    box-shadow: inset 3px -3px 20px -3px black;
 }
 
+
+#circulocruceta{
+    margin: 23%;
+    width: 120px;
+    height: 120px;
+    left: 15%;
+    top: .5%;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    box-shadow:inset -5px -5px 23px -5px black;
+}
 .crucetavertical {
     width: 30px;
     height: 100px;
-    background-color: black;
+    background-color: #2b2b2b;
     position: absolute;
     margin: 35%;
     top: -170px;
-    right: 100px;
-    left: 100px;
+    right: 90px;
+    left: 90px;
     border-radius: 10px;
 }
 
 .crucetahorizontal {
     width: 30px;
     height: 100px;
-    background-color: black;
+    background-color: #2b2b2b;
     position: absolute;
     margin: 30%;
-    top: -10px;
+    top: -11px;
     right: -7px;
     left: -7px;
     border-radius: 10px;
@@ -66,7 +82,7 @@ body {
     top: -80px;
     margin: -325%;
     position: absolute;
-    background-color: #700000;
+    background-color:#71001a;
     border-radius: 50%;
 
 }
@@ -79,7 +95,7 @@ body {
     top: 180px;
     margin: -500%;
     position: absolute;
-    background-color:#700000;
+    background-color:#71001a;
     border-radius: 50%;
 }
 
@@ -107,4 +123,5 @@ body {
     border-radius: 8px;
     transform: rotate(180deg);
 }
+
 
