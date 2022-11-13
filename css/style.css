@@ -103,7 +103,7 @@ body {
     width: 30px;
     height: 100px;
     background-color: #2b2b2b;
-    position: absolute;
+    position:relative;
     margin: 30%;
     top: -11px;
     right: -7px;
@@ -218,4 +218,48 @@ body {
 .altavoces6 {
     position: absolute;
     left: 100px;
+}
+
+#brillo-a{
+    width: 19px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+#brillo-b{
+    width: 19px;
+    height: 3px;
+    background-color: rgb(254, 255, 253);
+    border-radius: 10px;
+    position: absolute;
+    top: 94px;
+    left: 5px;
+}
+
+#brillo-c{
+    width: 19px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position:absolute;
+    top: 46px;
+    left:52px;
+    z-index: 200;
+    transform: rotate(90deg);
+}
+
+#brillo-d{
+    width: 19px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: absolute;
+    top: 46px;
+    left: -38px;
+    z-index: 300;
+    transform: rotate(90deg);
 }
