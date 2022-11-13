@@ -77,8 +77,34 @@ body {
     left: 400%;
     right: 900%;
     top: 180px;
-    margin: -520%;
+    margin: -500%;
     position: absolute;
     background-color:#700000;
     border-radius: 50%;
 }
+
+.botonselect{
+    width: 15px;
+    height: 60px;
+    left: 400%;
+    right: 900%;
+    top: 220px;
+    margin: -40%;
+    position: absolute;
+    background-color:#787878;
+    border-radius: 8px;
+    transform: rotate(145deg);
+}
+
+.botonstart{
+    width: 15px;
+    height: 60px;
+    margin: 60px;
+    right: 300%;
+    left:-105px;
+    position: absolute;
+    background-color:#787878;
+    border-radius: 8px;
+    transform: rotate(180deg);
+}
+
