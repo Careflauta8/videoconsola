@@ -1,6 +1,42 @@
 body {
-    margin:10px;
+    margin: 10px;
     background-color: rgb(255, 255, 255);
+}
+
+#linearoja{
+    width: 140px;
+    height: 2px;
+    position: absolute;
+    background-color: red;
+    top: 58px;
+    left: 38.5%;
+}
+
+#linearoja-a{
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: red;
+    top: 58px;
+    left: 57%;
+}
+
+#lineaazul{
+    width: 140px;
+    height: 2px;
+    position: absolute;
+    background-color: #0419d8;
+    top: 66px;
+    left: 38.5%;
+}
+
+#lineaazul-b{
+    width: 70px;
+    height: 2px;
+    position: absolute;
+    background-color: #0419d8;
+    top: 66px;
+    left: 57%;
 }
 
 #cuerpoconsola {
@@ -12,7 +48,7 @@ body {
     justify-content: center;
     border-radius: 15px;
     border-bottom-right-radius: 76px;
-    box-shadow: 9px 9px 9px 9px rgb(59, 59, 59);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 4);
 }
 
 #pantallanegra {
@@ -68,7 +104,7 @@ body {
     left: 120px;
     background-color: #d8d4d1;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 14px;
     transform: rotate(-45deg);
     box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 }
@@ -81,7 +117,7 @@ body {
     top: 11.6%;
     background-color: #d8d4d1;
     position: absolute;
-    border-radius: 10px;
+    border-radius: 14px;
     transform: rotate(-45deg);
     box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 
@@ -97,13 +133,14 @@ body {
     right: 90px;
     left: 89px;
     border-radius: 10px;
+
 }
 
 .crucetahorizontal {
     width: 30px;
     height: 100px;
     background-color: #2b2b2b;
-    position:relative;
+    position: relative;
     margin: 30%;
     top: -11px;
     right: -7px;
@@ -123,6 +160,7 @@ body {
     position: absolute;
     background-color: #71001a;
     border-radius: 50%;
+    box-shadow: inset 4px -4px 5px -3px #eeabba;
 
 }
 
@@ -136,7 +174,7 @@ body {
     position: absolute;
     background-color: #71001a;
     border-radius: 50%;
-    box-shadow: inset 5px -5px 20px -4px #a2a2a2;
+    box-shadow: inset 4px -4px 5px -3px #eeabba;
 }
 
 .botonselect {
@@ -150,6 +188,7 @@ body {
     background-color: #787878;
     border-radius: 8px;
     transform: rotate(136deg);
+    box-shadow: inset 4px -4px 5px -3px #393939;
 }
 
 .botonstart {
@@ -162,6 +201,7 @@ body {
     background-color: #787878;
     border-radius: 8px;
     transform: rotate(180deg);
+    box-shadow: inset 4px -4px 5px -3px #393939;
 }
 
 .altavoces {
@@ -173,8 +213,8 @@ body {
     left: 1800%;
     right: 4000px;
     position: absolute;
-    translate:-60%;
-    
+    translate: -60%;
+
 }
 
 .altavoces1,
@@ -187,7 +227,7 @@ body {
     height: 60px;
     background-color: #d8d4d1;
     border-radius: 20px;
-    box-shadow:inset 5px -5px 23px -5px #494848;
+    box-shadow: inset 5px -5px 23px -5px #494848;
 }
 
 .altavoces1 {
@@ -220,46 +260,34 @@ body {
     left: 100px;
 }
 
-#brillo-a{
+#brillo-a {
     width: 19px;
     height: 3px;
-    background-color: rgb(255, 255, 255);
+    background-color: #636363;
     border-radius: 10px;
     position: absolute;
     top: 2px;
     left: 5px;
 }
 
-#brillo-b{
-    width: 19px;
-    height: 3px;
-    background-color: rgb(254, 255, 253);
+#brillo-b {
+    width: 23px;
+    height: 2px;
+    background-color: #636363;
     border-radius: 10px;
     position: absolute;
-    top: 94px;
-    left: 5px;
-}
-
-#brillo-c{
-    width: 19px;
-    height: 3px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    position:absolute;
-    top: 46px;
-    left:52px;
-    z-index: 200;
-    transform: rotate(90deg);
-}
-
-#brillo-d{
-    width: 19px;
-    height: 3px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    position: absolute;
-    top: 46px;
-    left: -38px;
+    top: 36px;
+    left: 35px;
     z-index: 300;
-    transform: rotate(90deg);
+}
+
+#brillo-c {
+    width: 23px;
+    height: 2px;
+    background-color: #636363;
+    border-radius: 10px;
+    position: absolute;
+    top: 36px;
+    left: -25px;
+    z-index: 200;
 }
