@@ -89,7 +89,7 @@ body {
     margin: 371px;
     width: 130px;
     height: 70px;
-    left: 430px;
+    left: 425px;
     padding: 2px;
     border-radius: 50px;
     background-color: #d8d4d1;
@@ -300,4 +300,37 @@ body {
     font-size: 12px;
     color: #f8edf0;
     font-family: 'Times New Roman', Times, serif;
+}
+
+#battery{
+    position: absolute;
+    top: 23%;
+    left: 38.5%;
+    font-size: 8px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #f8edf0;
+}
+
+#letra-b{
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 51%;
+    left: 59%;
+    transform: rotate(315deg);
+    margin: 15px;
+}
+
+#letra-a{
+    width: 200px;
+    height: 200px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 43%;
+    left: 63%;
+    transform: rotate(312deg);
+
 }
