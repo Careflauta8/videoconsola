@@ -1,6 +1,6 @@
 body {
-    margin: 12px;
-    background-color: rgb(247, 255, 1);
+    margin:10px;
+    background-color: rgb(255, 255, 255);
 }
 
 #cuerpoconsola {
@@ -12,8 +12,7 @@ body {
     justify-content: center;
     border-radius: 15px;
     border-bottom-right-radius: 76px;
-    box-shadow: 10px 10px 10px 10px rgb(59, 59, 59);
-    box-shadow: Vertical Length 15px;
+    box-shadow: 9px 9px 9px 9px rgb(59, 59, 59);
 }
 
 #pantallanegra {
@@ -32,55 +31,55 @@ body {
 #pantallaverde {
     width: 260px;
     height: 200px;
-    background-color:#9ca04c;
+    background-color: #9ca04c;
     box-shadow: inset 3px -3px 20px -3px black;
 }
 
 
-#circulocruceta{
+#circulocruceta {
     margin: 23%;
     width: 120px;
     height: 120px;
     left: 15%;
     top: .5%;
     border-radius: 50%;
-    background-color:#d8d4d1;
+    background-color: #d8d4d1;
     position: absolute;
-    box-shadow:inset -5px -5px 23px -5px #a2a2a2;
+    box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 }
 
-#ovalobotonesAyB{
-    margin:375px;
+#ovalobotonesAyB {
+    margin: 371px;
     width: 130px;
     height: 70px;
     left: 430px;
     padding: 2px;
     border-radius: 50px;
-    background-color:#d8d4d1;
+    background-color: #d8d4d1;
     position: absolute;
     transform: rotate(-45deg);
     box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 }
 
-#fondobotonselect{
+#fondobotonselect {
     margin: 33.9%;
     width: 78px;
     height: 28px;
     left: 120px;
-    background-color:#d8d4d1;
+    background-color: #d8d4d1;
     position: absolute;
     border-radius: 10px;
     transform: rotate(-45deg);
     box-shadow: inset -5px -5px 23px -5px #a2a2a2;
 }
 
-#fondobotonstart{
+#fondobotonstart {
     margin: 28.7%;
     width: 78px;
     height: 28px;
     left: 273px;
     top: 11.6%;
-    background-color:#d8d4d1;
+    background-color: #d8d4d1;
     position: absolute;
     border-radius: 10px;
     transform: rotate(-45deg);
@@ -96,7 +95,7 @@ body {
     margin: 35%;
     top: -170px;
     right: 90px;
-    left: 90px;
+    left: 89px;
     border-radius: 10px;
 }
 
@@ -122,7 +121,7 @@ body {
     top: -80px;
     margin: -325%;
     position: absolute;
-    background-color:#71001a;
+    background-color: #71001a;
     border-radius: 50%;
 
 }
@@ -135,12 +134,12 @@ body {
     top: 180px;
     margin: -500%;
     position: absolute;
-    background-color:#71001a;
+    background-color: #71001a;
     border-radius: 50%;
     box-shadow: inset 5px -5px 20px -4px #a2a2a2;
 }
 
-.botonselect{
+.botonselect {
     width: 15px;
     height: 60px;
     left: 400%;
@@ -148,21 +147,75 @@ body {
     top: 225px;
     margin: -40%;
     position: absolute;
-    background-color:#787878;
+    background-color: #787878;
     border-radius: 8px;
     transform: rotate(136deg);
 }
 
-.botonstart{
+.botonstart {
     width: 15px;
     height: 60px;
     margin: 60px;
     right: 300%;
-    left:-105px;
+    left: -105px;
     position: absolute;
-    background-color:#787878;
+    background-color: #787878;
     border-radius: 8px;
     transform: rotate(180deg);
 }
 
+.altavoces {
+    width: 150px;
+    height: 100px;
+    transform: rotate(85deg);
+    margin: -90px;
+    top: 50%;
+    left: 1800%;
+    right: 4000px;
+    position: absolute;
+    translate:-60%;
+    
+}
 
+.altavoces1,
+.altavoces2,
+.altavoces3,
+.altavoces4,
+.altavoces5,
+.altavoces6 {
+    width: 7px;
+    height: 60px;
+    background-color: #d8d4d1;
+    border-radius: 20px;
+    box-shadow:inset 5px -5px 23px -5px #494848;
+}
+
+.altavoces1 {
+    position: absolute;
+    left: 0px;
+}
+
+.altavoces2 {
+    position: absolute;
+    left: 20px;
+}
+
+.altavoces3 {
+    position: absolute;
+    left: 40px;
+}
+
+.altavoces4 {
+    position: absolute;
+    left: 60px;
+}
+
+.altavoces5 {
+    position: absolute;
+    left: 80px;
+}
+
+.altavoces6 {
+    position: absolute;
+    left: 100px;
+}
