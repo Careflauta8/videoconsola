@@ -162,8 +162,7 @@ body {
     background-color: #71001a;
     border-radius: 50%;
     box-shadow: inset 4px -4px 5px -3px #eeabba;
-
-}
+} 
 
 .botonB {
     width: 45px;
@@ -381,4 +380,13 @@ body {
     top: 21%;
     left: 39%;
     border-radius: 50%;
+}
+
+#lineasuperiorgris{
+    width: 460px;
+    height: 4px;
+    background-color: rgb(174, 174, 174);
+    position: absolute;
+    top: 4%;
+    left: 34.9%;
 }
