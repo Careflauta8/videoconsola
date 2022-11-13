@@ -311,48 +311,64 @@ body {
     color: #f8edf0;
 }
 
-#letra-b{
-    width: 200px;
-    height: 200px;
-    font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    top: 51%;
-    left: 59%;
+#b{
+    width: 20px;
+    height: 12px;
+    top: 64%;
+    left: 56%;
     transform: rotate(315deg);
     margin: 15px;
+    position: absolute;
 }
 
-#letra-a{
-    width: 200px;
-    height: 200px;
-    font-size: 20px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#a{
+    width: 20px;
+    height: 12px;
     position: absolute;
-    top: 43%;
-    left: 63%;
+    top: 60%;
+    left: 60%;
     transform: rotate(312deg);
 
 }
 
 #select{
-    width: 200px;
-    height: 200px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    top: 62.9%;
-    left: 46.4%;
+    width: 55px;
+    height: 12px;
+    top: 77%;
+    left: 44%;
     transform: rotate(316deg);
+    position: absolute;
 }
 
 #start{
-    width: 200px;
-    height: 200px;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: absolute;
-    top: 61.5%;
-    left: 51.5%;
+    width: 55px;
+    height: 12px;
+    top: 76%;
+    left: 49%;
     transform: rotate(316deg);
+    position: absolute;
+}
+
+#nintendo{
+    width: 100px;
+    height: 12px;
+    position: absolute;
+    top: 44%;
+    left: 38%;
+}
+
+#gameboy{
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    top: 43%;
+    left: 45%;
+}
+
+#tm{
+    width: 20px;
+    height: 6px;
+    position: absolute;
+    top: 45%;
+    left: 52%;
 }
