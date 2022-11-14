@@ -1,13 +1,13 @@
-#### Table of Comntents
+# Table of Comntents #
 
 
-- [PROYECTO]
+- ## PROYECTO ##
 - Este proyecto se basa en realizar mi primera videoconsola utilizando HTML y CSS,
 me he decantado por llevar a cabo la realizacion de la GAME BOY tradicional,
 la primera consola portatil que diseñó la empresa internacional de video juegos NINTENDO.
 
 
-- [PROCESO]
+- ## PROCESO ##
      - Desarrollo principal de la idea.
      - Creación de la base de la consola.
      - Se lleva a cabo la organización de los bordes y pantalla.
@@ -16,9 +16,9 @@ la primera consola portatil que diseñó la empresa internacional de video juego
      - últimas pinceladas para dejar finiquitado el trabajo, aun queda mucho por mejorar.
 
 
--[OBJETIVO]
+- ## OBJETIVO ##
 - Se pretende mejorar la videoconsola a medida que vamos avanzando en el curso, al final de todo la videoconsola tendrá animación y botones modulantes.
 
 
--[AUTOR]
-   - Diego Sánchez Londoño 
+- ## AUTOR ##
+   - **Diego Sánchez Londoño** 
